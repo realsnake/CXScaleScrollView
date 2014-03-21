@@ -14,13 +14,14 @@
 		F6C01B1D18DBCD51003D9486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C01B1C18DBCD51003D9486 /* main.m */; };
 		F6C01B2118DBCD51003D9486 /* CXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C01B2018DBCD51003D9486 /* CXAppDelegate.m */; };
 		F6C01B2418DBCD51003D9486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C01B2218DBCD51003D9486 /* Main.storyboard */; };
-		F6C01B2718DBCD51003D9486 /* CXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C01B2618DBCD51003D9486 /* CXViewController.m */; };
+		F6C01B2718DBCD51003D9486 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C01B2618DBCD51003D9486 /* DemoViewController.m */; };
 		F6C01B2918DBCD51003D9486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C01B2818DBCD51003D9486 /* Images.xcassets */; };
 		F6C01B3018DBCD51003D9486 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C01B2F18DBCD51003D9486 /* XCTest.framework */; };
 		F6C01B3118DBCD51003D9486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C01B1018DBCD51003D9486 /* Foundation.framework */; };
 		F6C01B3218DBCD51003D9486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C01B1418DBCD51003D9486 /* UIKit.framework */; };
 		F6C01B3A18DBCD51003D9486 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6C01B3818DBCD51003D9486 /* InfoPlist.strings */; };
 		F6C01B3C18DBCD51003D9486 /* CXScaleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C01B3B18DBCD51003D9486 /* CXScaleScrollViewTests.m */; };
+		F6C01B4718DBD46B003D9486 /* CXScaleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C01B4618DBD46B003D9486 /* CXScaleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		F6C01B1F18DBCD51003D9486 /* CXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXAppDelegate.h; sourceTree = "<group>"; };
 		F6C01B2018DBCD51003D9486 /* CXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXAppDelegate.m; sourceTree = "<group>"; };
 		F6C01B2318DBCD51003D9486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F6C01B2518DBCD51003D9486 /* CXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXViewController.h; sourceTree = "<group>"; };
-		F6C01B2618DBCD51003D9486 /* CXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXViewController.m; sourceTree = "<group>"; };
+		F6C01B2518DBCD51003D9486 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		F6C01B2618DBCD51003D9486 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		F6C01B2818DBCD51003D9486 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F6C01B2E18DBCD51003D9486 /* CXScaleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXScaleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C01B2F18DBCD51003D9486 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F6C01B3718DBCD51003D9486 /* CXScaleScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CXScaleScrollViewTests-Info.plist"; sourceTree = "<group>"; };
 		F6C01B3918DBCD51003D9486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6C01B3B18DBCD51003D9486 /* CXScaleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXScaleScrollViewTests.m; sourceTree = "<group>"; };
+		F6C01B4518DBD46B003D9486 /* CXScaleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXScaleScrollView.h; sourceTree = "<group>"; };
+		F6C01B4618DBD46B003D9486 /* CXScaleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXScaleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,13 @@
 		F6C01B1618DBCD51003D9486 /* CXScaleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				F6C01B4518DBD46B003D9486 /* CXScaleScrollView.h */,
+				F6C01B4618DBD46B003D9486 /* CXScaleScrollView.m */,
+				F6C01B2518DBCD51003D9486 /* DemoViewController.h */,
+				F6C01B2618DBCD51003D9486 /* DemoViewController.m */,
 				F6C01B1F18DBCD51003D9486 /* CXAppDelegate.h */,
 				F6C01B2018DBCD51003D9486 /* CXAppDelegate.m */,
 				F6C01B2218DBCD51003D9486 /* Main.storyboard */,
-				F6C01B2518DBCD51003D9486 /* CXViewController.h */,
-				F6C01B2618DBCD51003D9486 /* CXViewController.m */,
 				F6C01B2818DBCD51003D9486 /* Images.xcassets */,
 				F6C01B1718DBCD51003D9486 /* Supporting Files */,
 			);
@@ -252,7 +257,8 @@
 			files = (
 				F6C01B1D18DBCD51003D9486 /* main.m in Sources */,
 				F6C01B2118DBCD51003D9486 /* CXAppDelegate.m in Sources */,
-				F6C01B2718DBCD51003D9486 /* CXViewController.m in Sources */,
+				F6C01B2718DBCD51003D9486 /* DemoViewController.m in Sources */,
+				F6C01B4718DBD46B003D9486 /* CXScaleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

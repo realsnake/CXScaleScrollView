@@ -1,5 +1,5 @@
 //
-//  CXViewController.h
+//  DemoViewController.h
 //  CXScaleScrollView
 //
 //  Created by snake on 14-3-21.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CXViewController : UIViewController
+@interface DemoViewController : UIViewController
 
 @end
